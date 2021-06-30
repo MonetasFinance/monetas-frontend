@@ -1,0 +1,609 @@
+{
+	"onboarding": {
+		"slides": {
+			"welcome": {
+				"title": "¡Bienvenido a Complex!",
+				"description": "Complex es la dApp para los titulares de MNA. Si nunca ha usado Complex antes, lea primero nuestra rápida introducción."
+			},
+			"whatIsSynthetix": {
+				"title": "¿Qué es Moneta?",
+				"description": "Moneta es un protocolo descentralizado de emisión de activos sintéticos construido sobre Ethereum. Estos activos sintéticos (Synths) se crean al invertir el Moneta Network Token (MNA), y estos Synths pueden intercambiarse entre sí directamente con los contratos inteligentes de Moneta en exchange.moneta.io."
+			},
+			"whyStakeSnx": {
+				"title": "¿Por qué invertir en MNA?",
+				"description": "Los inversores de MNA reciben dos tipos de recompensas. En primer lugar, reciben las recompensas de inversión de MNA, que se crean a través de la política monetaria inflacionaria. En segundo lugar, hay recompensas del mercado de intercambio de Synth, que son generadas por las operaciones de Synth en exchange.moneta.io."
+			},
+			"howStakeSnx": {
+				"title": "¿Qué deben hacer los inversores de MNA?",
+				"description": "Todos los Synths deben estar respaldados por MNA invertidos en un indice de colateralización del 800%. Los inversores de MNA necesitan administrar su propio indice para estar por encima de esta cifra, lo cual pueden hacerlo quemando Synths para aumentar su indice o acuñando Synths para reducirla. Si hacen esto, pueden recolectar recompensas semanales."
+			},
+			"risks": {
+				"title": "¿Cuáles son los riesgos?",
+				"description": "Todos los inversores de MNA crean una 'deuda' cuando invierten. Su deuda comienza como la cantidad de sUSD que acuña inicialmente, y fluctúa de acuerdo con las ganancias o pérdidas realizadas por otros titulares de Synth. Cada vez que alguien posee un Synth que aprecia su valor, esa ganancia se distribuye proporcionalmente entre todas las deudas de los titulares de MNA invertidos. Un inversor debe pagar su deuda antes de poder desbloquear sus MNA invertidos."
+			}
+		},
+		"walletConnection": {
+			"title": "Para comenzar, por favor conecte una billetera con sus tenencias de MNA:"
+		},
+		"walletSelection": {
+			"success": {
+				"title": "Seleccionar billetera",
+				"subtitle": "Por favor seleccione la billetera que le gustaría usar con Complex"
+			},
+			"loading": {
+				"connectInstructions": "Siga las instrucciones en su dispositivo para desbloquear su billetera.",
+				"connectVia": "Conectar vía {{walletType}}"
+			},
+			"error": {
+				"title": "Error",
+				"subtitle": "Complex no pudo acceder a su billetera.",
+				"retry": "Reintentar"
+			},
+			"addWallet": {
+				"placeholder": "Dirección de billetera",
+				"buttonText": "Añadir"
+			}
+		}
+	},
+	"dashboard": {
+		"header": {
+			"support": "Soporte"
+		},
+		"sections": {
+			"wallet": "Detalles de su billetera:"
+		},
+		"rewards": {
+			"open": "queda para reclamar recompensas",
+			"blocked": "Reclamar recompensas esta <1>blocked</1>"
+		},
+		"ratio": {
+			"current": "Indice actual de colateralización",
+			"target": "Indice de colateralización objetivo"
+		},
+		"holdings": {
+			"title": "Total MNA:",
+			"locked": "Bloqueado",
+			"transferable": "Transferible",
+			"staking": "Invertido",
+			"nonStaking": "No invertido",
+			"escrowed": "Custodiado",
+			"nonEscrowed": "No custodiado"
+		},
+		"table": {
+			"debt": "Deuda",
+			"synths": "Synths",
+			"balance": "Balance"
+		},
+		"buttons": {
+			"exchange": "Ir a exchange.moneta.io",
+			"synthetixDashboard": "Ver precios en el Tablero",
+			"refresh": "Actualizar",
+			"delegate": "Delegar"
+		}
+	},
+	"mainNavigation": {
+		"tabs": {
+			"home": "Inicio",
+			"depot": "Depósito",
+			"transactionsHistory": "Transacciones",
+			"escrow": "Custodia",
+			"lpRewards": "Recompensas LP"
+		}
+	},
+	"home": {
+		"intro": {
+			"title": "¿Que le gustaría hacer?"
+		},
+		"actions": {
+			"mint": {
+				"title": "Acuñar",
+				"description": "Acuñar sUSD invirtiendo MNA"
+			},
+			"burn": {
+				"title": "Quemar",
+				"description": "Quemar sUSD para desbloquear MNA invertidos"
+			},
+			"claim": {
+				"title": "Reclamar",
+				"description": "Reclamar recompensas de los MNA invertidos y del mercado de intercambio de Synth"
+			},
+			"trade": {
+				"title": "Comerciar",
+				"description": "Comerciar cualquier Synth a sUSD"
+			},
+			"transfer": {
+				"title": "Transferir",
+				"description": "Transferir MNA, Synths o ETH"
+			},
+			"track": {
+				"title": "Seguir",
+				"description": "Realice un seguimiento de su deuda a través del tiempo"
+			}
+		}
+	},
+	"mintrActions": {
+		"mint": {
+			"action": {
+				"title": "Acuñar",
+				"subtitle": "Acuñar sUSD invirtiendo sus MNA. Esto le proporciona un índice de colateralización y una deuda, lo que le permite obtener recompensas de inversión.",
+				"instruction": "Confirme o ingrese la cantidad a acuñar:",
+				"staking": "Invirtiendo",
+				"estimateCRatio": "C-Ratio estimado",
+				"buttons": {
+					"mint": "Acuñar ahora"
+				}
+			},
+			"confirmation": {
+				"actionDescription": "Acuñando",
+				"subActionDescription": "Invirtiendo"
+			},
+			"complete": {
+				"title": "¡Acuñado en progreso!"
+			}
+		},
+		"burn": {
+			"action": {
+				"title": "Quemar",
+				"subtitle": "Quemar sUSD para desbloquear sus MNA invertidos. Esto aumenta su índice de colateralización y reduce su deuda, lo que le permite transferir sus MNA no custodiados.",
+				"instruction": "Confirme o ingrese la cantidad a quemar:",
+				"transferrable": {
+					"title": "MNA transferible siendo desbloqueado:",
+					"button": "Ver MNA transferibles"
+				},
+				"buttons": {
+					"burn": "Quemar ahora",
+					"waitingPeriod": "Quemar synths desbloqueados en"
+				}
+			},
+			"confirmation": {
+				"actionDescription": "Quemando",
+				"subActionDescription": "Desbloqueando"
+			},
+			"complete": {
+				"title": "¡Quemado en progreso!"
+			}
+		},
+		"claim": {
+			"action": {
+				"title": "Reclamar",
+				"subtitle": "Si ha invertido sus MNA y acuñado sUSD, Ud. es elegible para reunir dos tipos de recompensas: Recompensas de inversión de MNA y recompensas del mercado de intercambio de Synths generadas en exchange.moneta.io.",
+				"timeLeft": "Tiempo restante para reclamar",
+				"table": {
+					"title": "Periodos reclamables:",
+					"period": "Periodo",
+					"status": "Estado de reclamo",
+					"open": "Abierto",
+					"blocked": "Bloqueado"
+				},
+				"tradingRewards": "Sus recompensas disponibles del mercado de intercambio Synth:",
+				"stakingRewards": "Sus recompensas disponibles de inversión MNA:",
+				"buttons": {
+					"claim": "Reclamar ahora",
+					"history": "Historial de reclamos"
+				},
+				"note": "Nota: Si no se recogen en 7 días, sus recompensas se perderán y se transferirán al fondo de comisiones."
+			},
+			"confirmation": {
+				"actionDescription": "Reclamando:"
+			},
+			"complete": {
+				"title": "¡Reclamado en progreso!"
+			}
+		},
+		"track": {
+			"action": {
+				"title": "Seguir",
+				"subtitle": "Realice un seguimiento de su deuda a través del tiempo, gráficos de",
+				"data": {
+					"issuedDebt": "Deuda acuñada",
+					"actualDebt": "Deuda actual",
+					"totalSynths": "Total Synths",
+					"netDebt": "Deuda neta"
+				},
+				"chart": {
+					"title": "Deuda a través del tiempo"
+				},
+				"table": {
+					"yourSynths": "Sus synths",
+					"balance": "Balance"
+				}
+			}
+		},
+		"trade": {
+			"action": {
+				"title": "Comerciar",
+				"subtitle": "Comerciar sus Synths por sUSD. Para el dApp completo, que le permite comerciar entre Synths, use exchange.moneta.io.",
+				"buttons": {
+					"trade": "Comerciar ahora",
+					"exchange": "Abrir exchange.moneta.io"
+				}
+			},
+			"confirmation": {
+				"actionDescription": "Comerciando:",
+				"subActionDescription": "Recibiendo:"
+			},
+			"complete": {
+				"title": "¡Comercio en progreso!"
+			}
+		},
+		"send": {
+			"action": {
+				"title": "Transferir",
+				"subtitle": "Transferir sus ETH, MNA o Synths.",
+				"available": "Cantidad transferible:",
+				"amountInstruction": "Ingrese la cantidad:",
+				"walletInstruction": "Ingrese la dirección de destino:",
+				"buttons": {
+					"send": "Enviar ahora"
+				}
+			},
+			"confirmation": {
+				"actionDescription": "Enviando:",
+				"subActionDescription": "Destino:"
+			},
+			"complete": {
+				"title": "¡Enviando en progreso!"
+			}
+		}
+	},
+	"depot": {
+		"intro": {
+			"title": "Deposito:",
+			"subtitle": "Deposite sUSD en la lista para venderlo en Moneta. Intercambie por ETH. Puede retirar sus sUSD en cualquier momento mientras espera. Nota: el depósito mínimo es de 50 sUSD."
+		},
+		"table": {
+			"title": "Actividad reciente:",
+			"type": "Tipo",
+			"activity": "Actividad",
+			"remaining": "Restante",
+			"amount": "Cantidad",
+			"rate": "Indice",
+			"timeDate": "Hora | Fecha",
+			"details": "Detalles",
+			"deposit": "Depósito",
+			"soldByDepot": "Vendida por depósito"
+		},
+		"buttons": {
+			"available": "Cantidad disponible:",
+			"more": "Ver más",
+			"contract": "Ver contrato",
+			"deposit": "Depósito",
+			"withdraw": "Retiro"
+		},
+		"deposit": {
+			"action": {
+				"title": "Deposito",
+				"subtitle": "Cantidad disponible:",
+				"instruction": "Ingrese la cantidad del depósito:",
+				"buttons": {
+					"deposit": "Depositar ahora",
+					"unlock": "Desbloquear"
+				}
+			},
+			"complete": {
+				"title": "¡Deposito en progreso!"
+			},
+			"actionDescription": "Depositando:"
+		},
+		"withdraw": {
+			"action": {
+				"title": "Retiro",
+				"subtitle": "Cantidad disponible:",
+				"buttons": {
+					"withdraw": "Retirar ahora"
+				}
+			},
+			"complete": {
+				"title": "¡Retiro en progreso!"
+			},
+			"actionDescription": "Retirando:"
+		}
+	},
+	"escrow": {
+		"type": {
+			"staking": "Invirtiendo",
+			"token": "Venta de tokens"
+		},
+		"buttons": {
+			"vest": "Otorgar ahora",
+			"viewTokenSale": "Ver venta de tokens en garantía",
+			"viewRewards": "Ver recompensas en garantía"
+		},
+		"staking": {
+			"title": "Otorgar sus recompensas de MNA en garantía",
+			"subtitle": "Si usted ha invertido MNA y acuño sUSD, es elegible para recibir MNA por recompensas de inversión , las cuales puede otorgar aquí después de que ellas hayan sido custodiadas por 12 meses.",
+			"total": "Total en garantía:",
+			"vested": "Total otorgado:",
+			"available": "Total disponible:",
+			"table": {
+				"none": "No tiene MNA en garantía",
+				"title": "Calendario de otorgamiento",
+				"date": "Fecha de otorgamiento",
+				"quantity": "Cantidad"
+			}
+		},
+		"tokenSale": {
+			"title": "Otorgar sus MNA en custodia desde la venta de tokens ",
+			"subtitle": "Si sus MNA todavía están en custodia desde la venta de tokens, puede otorgarlos aquí.",
+			"total": "Total otorgado:",
+			"table": {
+				"title": "Calendario de otorgamiento",
+				"period": "Periodo de otorgamiento",
+				"interval": "Intervalo",
+				"number": "Nro. de intervalos",
+				"months": "Meses",
+				"vested": "Otorgado",
+				"date": "Fecha de otorgamiento",
+				"quantity": "Cantidad",
+				"none": "Usted no tiene MNA custodiados"
+			}
+		},
+		"confirmation": {
+			"actionDescription": "Otorgando:"
+		},
+		"complete": {
+			"title": "¡Otorgando en progreso!",
+			"actionDescription": "Otorgando:"
+		}
+	},
+	"lpRewards": {
+		"intro": {
+			"title": "Por favor elija un pool",
+			"completed": "Completado"
+		},
+		"actions": {
+			"unipoolSETH": {
+				"title": "UNIPOOL sETH"
+			},
+			"unipoolSXAU": {
+				"title": "UNIPOOL sXAU"
+			},
+			"curvepool": { "title": "CURVEPOOL sUSD" },
+			"ieth": { "title": "iETH" },
+			"balancer": {"title": "BALANCER MNA"},
+			"curvepoolSBTC": {"title": "CURVEPOOL sBTC"}
+		},
+		"shared": {
+			"unlocked": {
+				"link": "Vea el post en el blog",
+				"complete": "¡Transacción en progreso!"
+			},
+			"data": {
+				"balance": "Su balance",
+				"staked": "Invertido actualmente",
+				"stakedOldContract": "Invertido v1",
+				"rewardsAvailable": "Recompensas disponibles",
+				"rewardsAvailableOldContract": "Recompensas (previas)"
+			},
+			"actions": {
+				"staking": "Invirtiendo",
+				"claiming": "Reclamando",
+				"unstaking": "Retirando",
+				"exiting": "Retirando y reclamando",
+				"settling": "Liquidando"
+			},
+			"buttons": {
+				"unlock": "desbloquear",
+				"goToContract": "Ir al contrato",
+				"stake": "Invertir tokens",
+				"claim": "Reclamar recompensas",
+				"unstake": "Retirar tokens invertidos",
+				"exit": "salir: reclamar y recuperar tokens",
+				"exit-old": "Salir de pool antigua",
+				"claim-old": "Reclamar recompensas de pool antigua",
+				"settle": "Liquidar"
+			},
+			"info": {
+				"weeklyRewards": "Recompensas semanales"
+			}
+		}
+	},
+	"unipoolSETH": {
+		"title": "Recompensas Uniswap sETH LP Token",
+		"locked": {
+			"subtitle": "Primero apruebe el contrato de Unipool que transfiere sus sETH UNI-V1 tokens para invertir.",
+			"transaction": "Estableciendo permisos de Uni-V1 LP token"
+		},
+		"unlocked": {
+			"subtitle": "Aquí puede invertir sus UNI-V1 Liquidity Provider (LP) tokens, reclamar sus recompensas MNA o salir completamente."
+		}
+	},
+	"unipoolSXAU": {
+		"title": "Recompensas Uniswap sXAU LP Token",
+		"locked": {
+			"subtitle": "Primero apruebe el contrato de Unipool que transfiere sus sXAU UNI-V2 tokens para invertir.",
+			"transaction": "Estableciendo permisos de Uni-V2 LP token"
+		},
+		"unlocked": {
+			"subtitle": "Aquí puede invertir sus UNI-V2 Liquidity Provider (LP) tokens, reclamar sus recompensas MNA o salir completamente."
+		}
+	},
+	"ieth": {
+		"title": "Recompensas de iETH",
+		"locked": {
+			"subtitle": "Primero apruebe el contrato de iEthRewards que transfiere sus iETH tokens para invertir.",
+			"transaction": "Estableciendo permisos de iETH"
+		},
+		"unlocked": {
+			"subtitle": "Aquí puede invertir sus iETH synths, reclamar sus recompensas MNA o salir completamente.",
+			"settle-info": "Necesita liquidar antes de poder invertir sus iETH synths."
+		}
+	},
+	"curvepool": {
+		"title": "Recompensas Curve Finance sUSD LP Token",
+		"locked": {
+			"subtitle": "Primero apruebe el contrato de Curvepool que transfiere sus Curve LP tokens para invertir.",
+			"transaction": "Estableciendo permisos de Curve LP token"
+		},
+		"unlocked": {
+			"subtitle": "Aquí puede invertir sus Curve LP tokens, reclamar sus recompensas MNA o salir completamente."
+		}
+	},
+	"curvepoolSBTC": {
+		"title": "Recompensas Curve Tokenised BTC LP Token",
+		"locked": {
+			"subtitle": "Primero apruebe el contrato de Curvepool que transfiere sus Curve LP tokens para invertir.",
+			"transaction": "Estableciendo permisos de Curve LP token"
+		},
+		"unlocked": {
+			"subtitle": "Aquí puede invertir sus Curve LP tokens, reclamar sus recompensas BPT o salir completamente."
+		}
+	},
+	"balancerSNX": {
+		"title": "Recompensas Balancer MNA/USDC Pool Token",
+		"locked": {
+			"subtitle": "Primero apruebe el contrato de Balancer Pool que transfiere sus BPT tokens para invertir.",
+			"transaction": "Estableciendo permisos de Balancer BPT token"
+		},
+		"unlocked": {
+			"subtitle": "Aquí puede invertir sus Balancer (BPT) tokens, reclamar sus recompensas MNA o salir completamente."
+		}
+	},
+	"delegation": {
+		"popup": {
+			"title": "Delegar billetera",
+			"link": "Ver post en el blog",
+			"description": "La delegación permite a una billetera ejecutar funciones en representación de otra billetera: Acuñar, quemar, reclamar e intercambiar, pero no transferir.",
+			"input": {
+				"label": "Ingrese una nueva dirección de billetera para delegar:"
+			},
+			"table": {
+				"title": "Manejar dirección de billetera",
+				"columns": {
+					"walletAddress": "Dirección de billetera",
+					"actions": "acciones"
+				},
+				"cells": {
+					"removeAllPowers": "Quitar todos los poderes"
+				}
+			},
+			"buttons": {
+				"add": "Agregar"
+			}
+		}
+	},
+	"transactions": {
+		"filters": {
+			"type": "Tipo",
+			"date": "Fecha",
+			"amount": "Cantidad"
+		},
+		"events": {
+			"issued": "Acuñados",
+			"burned": "Quemados",
+			"exchanged": "Comerciado",
+			"deposit": "Depositado",
+			"cleared": "Vendido",
+			"withdrawl": "Retirado",
+			"bought": "Comprado",
+			"feesClaimed": "Recompensas reclamadas",
+			"sent": "Enviado"
+		},
+		"buttons": {
+			"clearFilters": "Limpiar filtros"
+		},
+		"inputs": {
+			"from": "desde:",
+			"to": "hasta:"
+		}
+	},
+	"transactionSettings": {
+		"priceIndicator": "Comisiones de la red Ethereum:",
+		"title": "Configurar el precio del gas",
+		"placeholder": "Añada el precio del gas (GWEI)",
+		"subtitle": "Ajuste el precio del gas (GWEI) a continuación para establecer la velocidad de la transacción.",
+		"minutes": "min",
+		"speed": {
+			"slow": "Lento",
+			"average": "Promedio",
+			"fast": "Rápido"
+		},
+		"button": {
+			"submit": "Enviar"
+		}
+	},
+	"transactionProcessing": {
+		"confirmation": {
+			"title": "Por favor confirme la transacción",
+			"subtitle": "Para continuar siga las indicaciones en su billetera <1>walletType</1> .",
+			"loading": "Esperando respuesta del usuario..."
+		},
+		"complete": {
+			"subtitle": "Su transacción ha sido transmitida a la red Ethereum. Puede cerrar esta ventana ya que la transacción se completará en segundo plano."
+		},
+		"error": {
+			"title": "Algo salió mal...",
+			"subtitle": "Código:",
+			"type": {
+				"userDenied": "Firma de transacción denegada por el usuario",
+				"generic": "Error"
+			}
+		}
+	},
+	"notification": {
+		"status": {
+			"pending": "Transacción en progreso",
+			"success": "¡Transacción completada!",
+			"error": "Ocurrió un error..."
+		}
+	},
+	"button": {
+		"max": "Max",
+		"burnMax": "Quemar el máximo",
+		"fixCRatio": "Corregir su índice de colateralización",
+		"edit": "Editar",
+		"havingTrouble": "¿Teniendo problemas?",
+		"whatIsSynthetix": "¿Qué es Moneta?",
+		"previous": "Anterior",
+		"next": "Siguiente",
+		"startOver": "Comenzar de nuevo",
+		"navigation": {
+			"cancel": "Cancelar",
+			"back": "Regresar",
+			"close": "Cerrar",
+			"etherscan": "Ver en Etherscan",
+			"view": "Ver",
+			"finish": "Finalizar y volver a inicio",
+			"ok": "OK"
+		}
+	},
+	"input": {
+		"list": {
+			"placeholder": "Buscar un synth..."
+		},
+		"address": {
+			"placeholder": "ej: 0x3b18a4..."
+		},
+		"error": {
+			"notEnoughToMint": "Actualmente no puede acuñar esa cantidad de sUSD",
+			"gasEstimate": "Error al obtener la estimación de gas",
+			"invalidAmount": "Monto inválido",
+			"notEnoughToBurn": "No tiene suficiente sUSD para quemar. Puede encontrar el mejor precio en dex.ag para comprar más.",
+			"balanceTooLow": "Su saldo es demasiado bajo",
+			"lowerThanMinDeposit": "Cantidad inferior al depósito mínimo"
+		}
+	},
+	"general": {
+		"noData": "Sin datos"
+	},
+	"network": {
+		"gas": "Comisión de la red Ethereum (Gas):",
+		"tradingFee": "Comisión del mercado de intercambio Synth:",
+		"speed": "Velocidad de transacción estimada:"
+	},
+	"maintenance": {
+		"title": "Complex no está disponible actualmente debido a actualizaciones.",
+		"subtitle": "Disculpe las molestias, volvemos en breve."
+	},
+	"mobileLanding": {
+		"title": "Complex no está disponible actualmente para dispositivos móviles y tablets.",
+		"subtitle": "Esperamos tener una versión móvil disponible en los próximos meses."
+	},
+	"tooltip": {
+		"claim": "Para reclamar recompensas, debe estar dentro del 1% del índice de colateralización objetivo. Si está por debajo de esta cifra, se le bloqueará el reclamo de recompensas hasta que queme suficiente sUSD.",
+		"debtBalance": "Su deuda comienza como la cantidad de sUSD que inicialmente acuña, y fluctúa de acuerdo con las ganancias o pérdidas realizadas por otros poseedores de Synth. Cada vez que alguien que posee un Synth que aprecia su valor, esa ganancia se distribuye proporcionalmente entre todas las deudas de los poseedores de los MNA invertidos. Para desbloquear todos sus MNA invertidos, primero debe pagar su deuda.",
+		"synthsBalance": "Los Synths son los activos sintéticos en el sistema Moneta, incluidos sUSD, sBTC, iBTC y todos los demás activos disponibles en exchange.moneta.io. Esta cifra es el valor total de todos los Synths contenidos en esta billetera. Si desea convertir algunos Synths de nuevo en sUSD, haga clic en el botón COMERCIAR.",
+		"track": "<0>Issued debt:</0> Esto muestra el total de operaciones de acuñado y quemado, revelando como el manejo de su C-Ratio ha afectado su deuda a través del tiempo.<1 /><2>Actual debt:</2> Esto muestra su deuda total a través del tiempo.",
+		"poolCompleted": "Este incentivo se ha completado. Por favor retire sus recompensas y retire sus tokens."
+	}
+}

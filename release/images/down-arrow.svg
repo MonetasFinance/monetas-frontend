@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 2备份 2</title>
+    <g id="phone" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.707826126">
+        <g id="交易" transform="translate(-176.000000, -486.000000)">
+            <g id="编组-2备份-2" transform="translate(176.000000, 486.000000)">
+                <path id="直线-4备份" d="M11.62,4.98 L11.619,15.93 L14.964794,10.2420922 L15.1752018,9.88438625 L15.8906138,10.3052018 L15.680206,10.6629078 L11.562706,17.6629078 L11.205,18.2710297 L10.847294,17.6629078 L6.72979402,10.6629078 L6.51938625,10.3052018 L7.23479821,9.88438625 L7.44520598,10.2420922 L10.79,15.929 L10.79,4.98 L11.62,4.98 Z" fill="#C1BFBF" fill-rule="nonzero"></path>
+                <circle id="椭圆形" stroke="#C1BFBF" stroke-width="0.83" cx="11.205" cy="11.205" r="10.79"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

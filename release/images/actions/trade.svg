@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="86px" height="86px" viewBox="0 0 86 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>矩形备份 19</title>
+    <g id="web" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="首页" transform="translate(-578.000000, -687.000000)" fill-rule="nonzero">
+            <g id="编组-29" transform="translate(578.000000, 687.000000)">
+                <g id="arrows" transform="translate(11.000000, 12.000000)">
+                    <polygon id="路径" fill="#82FFF9" points="20.4874389 37.9923878 20.4874389 27.7550187 0 27.7550187 0 10.2373691 20.4874389 10.2373691 20.4874389 0 43.7738381 18.9969353"></polygon>
+                    <polygon id="路径" fill="#FF8ADE" points="64.421875 33.3631704 64.421875 50.8808199 43.9344361 50.8808199 43.9344361 61.1181891 20.6480369 42.1217481 43.9344361 23.1258013 43.9344361 33.3631704"></polygon>
+                    <polygon id="路径" fill="#2DE0D8" points="20.4874389 37.9923878 20.4874389 27.7546191 0 27.7546191 0 18.9961939 43.7738381 18.9961939"></polygon>
+                    <polygon id="路径" fill="#FF5AD1" points="64.421875 42.1219952 64.421875 50.8809531 43.9344361 50.8809531 43.9344361 61.1181891 20.6480369 42.1219952"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
